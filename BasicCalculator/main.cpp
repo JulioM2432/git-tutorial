@@ -25,4 +25,7 @@ int main(){
 
     result = values.mod(2, 1);
     cout << result << endl;
+
+    result = values.pow(2, 4);
+    cout << result << endl;
 }
