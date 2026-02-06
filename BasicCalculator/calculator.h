@@ -37,22 +37,4 @@ class Calculator{
                 return -1;
             }
         }
-        // modulus function
-        int mod(int val1, int val2){
-            if(val2 != 0){
-                cout << "Div: ";
-                return val1 % val2;
-            }else{
-                cout << "Error!" << endl;
-                return -1;
-            }
-        }
-        double pow(double val1, double val2){
-            double result = 1;
-            for(int i = 0; i < val2; i++){
-                result *= val1;
-            }
-            cout << "Exponential: ";
-            return result;
-        }
 };
