@@ -37,4 +37,14 @@ class Calculator{
                 return -1;
             }
         }
+        // modulus function
+        int mod(int val1, int val2){
+            if(val2 != 0){
+                cout << "Div: ";
+                return val1 % val2;
+            }else{
+                cout << "Error!" << endl;
+                return -1;
+            }
+        }
 };
